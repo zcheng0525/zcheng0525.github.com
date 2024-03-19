@@ -25,3 +25,6 @@
     -webkit-box-shadow: 15px 15px #E5BDBE;
     box-shadow: 15px 15px #E5BDBE;
 }
+#b2 img {
+    border-radius: 15px;
+}
