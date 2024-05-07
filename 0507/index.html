@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<h1>導覽與標籤頁 </h1>
+	<h1>隨堂練習 </h1>
 	<!-- 導覽元件 -->
 <ul class="nav nav-tabs" id="myTab">
   <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab1">錦瑟</a></li>
@@ -125,8 +125,42 @@
 </div>
 <hr>
 	
+<h1> 導覽列 </h1>
 	
-	
+	<nav class="navbar navbar-light bg-light navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">日光旅遊</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbar1"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbar1">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">首頁</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">票券</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">訂房</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">國內訂房</a>
+            <a class="dropdown-item" href="#">國外訂房</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<hr>
+<h1>分頁導覽 </h1>
+	<nav>
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#"><span>&laquo;</span></a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link" href="#"><span>&raquo;</span></a></li>
+  </ul>
+</nav>
+
 	
 	
 	
